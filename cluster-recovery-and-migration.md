@@ -101,5 +101,3 @@ az aks delete --name myAKSCluster --resource-group myResourceGroup --yes --no-wa
 ## **Final Recommendation**
 Since Kubernetes **v1.19.11 is unsupported**, fixing the cluster will only be a short-term solution. The best approach is to **migrate workloads to a new AKS cluster** running a **supported version (1.27+)**.
 
-Would you like assistance automating this migration process?
-
